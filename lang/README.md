@@ -8,3 +8,4 @@ Uses browser LocalStorage for saving data.
 [ ] Implement item removal
 [ ] Implement item count (how many times it was translated)
 [ ] Implement training functionality (a-la Anki)
+[ ] Implement translation direction options
