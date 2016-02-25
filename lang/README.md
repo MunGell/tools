@@ -9,3 +9,6 @@ Uses browser LocalStorage for saving data.
 [ ] Implement item count (how many times it was translated)
 [ ] Implement training functionality (a-la Anki)
 [ ] Implement translation direction options
+[ ] Implement offline-mode (web app)
+[ ] Implement export/import functionality
+[ ] Implement visual signalisation that translation was added
