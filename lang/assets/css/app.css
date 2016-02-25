@@ -5,3 +5,7 @@ body {
 .words {
     list-style: none;
 }
+
+.translation {
+    margin-top: 20px;
+}

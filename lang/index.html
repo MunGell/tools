@@ -16,23 +16,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <form>
+                    <form class="form-inline" id="js-form">
                         <div class="form-group">
                             <input type="text" class="form-control" id="word-input" placeholder="Translate">
                         </div>
                         <button type="submit" id="action-go" class="btn btn-default">Go</button>
-                        <button type="submit" id="action-add" class="btn btn-primary">Add</button>
                     </form>
+                    <div class="well translation">
+                        <h3 class="translation__source" id="js-original"></h3>
+                        <p class="translation__text" id="js-translation"></p>
+                        <button type="submit" id="action-add" class="btn btn-primary">Add</button>
+                    </div>
                 </div>
                 <div class="col-sm-6">
-                    <ul class="list-group">
-                        <li class="list-group-item word">
-                            <span class="word__origin">Hello</span>
-                            <span class="word__translation">Привет</span>
-                        </li>
-                    </ul>
+                    <ul class="list-group" id="js-list"></ul>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <a href="http://translate.yandex.com/">Powered by Yandex.Translate</a>
         </div>
     </body>
 </html>
